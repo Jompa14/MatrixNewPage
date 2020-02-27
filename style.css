@@ -18,11 +18,12 @@ body{
 }
 
 .rice {
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.712);
     width: fit-content;
     display: table;
     font-size: x-small;
     cursor: default;
+    color: rgba(245, 245, 245, 0.589);
 }
 
 .time {
@@ -38,6 +39,7 @@ body{
     width: fit-content;
     display: table;
     cursor: default;
+    background-color: rgba(0, 0, 0, 0.514);
 }
 
 .greeting {
