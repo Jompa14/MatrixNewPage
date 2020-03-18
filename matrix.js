@@ -20,7 +20,7 @@ function showTime() {
   }
 
 
-function displaytDate() {
+function displayDate() {
 
 var options = { weekday: 'long', year: 'numeric', month: 'short', day: 'numeric' };
 var today  = new Date();
@@ -55,5 +55,4 @@ for (var key in localStorage) {
 
 //Run the functions
   showTime();
-  displaytDate();
-  setName();
+  displayDate();
